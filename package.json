@@ -1,0 +1,18 @@
+{
+  "name": "rubik-vue-scaffold",
+  "version": "1.0.0",
+  "description": "rubik-vue-scaffold",
+  "scripts": {
+    "build-cdn": "cross-env CDN_ENV=true rubik build",
+    "build-no-hash": "cross-env NO_HASH_ENV=true rubik build",
+    "build": "rubik build",
+    "start": "rubik serve",
+    "lint": "rubik lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7"
+  }
+}
