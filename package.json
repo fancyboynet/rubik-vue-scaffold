@@ -29,7 +29,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "src/**/*.{js,vue}": [
       "rubik lint",
       "git add"
     ]
