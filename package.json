@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.7"
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.1.0",
-    "rubik-cli": "^0.6.0"
+    "cross-env": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "rubik-cli": "latest"
   },
   "husky": {
     "hooks": {
