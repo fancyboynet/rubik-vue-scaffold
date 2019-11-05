@@ -25,7 +25,8 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "post-merge": "rubik check-package",
-      "post-checkout": "rubik check-package"
+      "post-checkout": "rubik check-package",
+      "commit-msg": "rubik commitlint"
     }
   },
   "lint-staged": {
