@@ -7,7 +7,8 @@
     "build-no-hash": "cross-env NO_HASH_ENV=true rubik build",
     "build": "rubik build",
     "start": "rubik serve",
-    "lint": "rubik lint"
+    "lint": "rubik lint",
+    "stylelint": "rubik stylelint --fix"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,10 @@
   "lint-staged": {
     "src/**/*.{js,vue}": [
       "rubik lint",
+      "git add"
+    ],
+    "src/**/*.{css,scss,sass,less,vue}": [
+      "rubik stylelint --fix",
       "git add"
     ]
   }
