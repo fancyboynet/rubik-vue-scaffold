@@ -1,3 +1,3 @@
 module.exports = {
-  "vendor": ["vue"]
+  "vendor": ["vue", "vuex", "vue-router", "vue-i18n"]
 }

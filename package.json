@@ -13,8 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "latest",
+    "js-cookie": "latest",
+    "lodash": "latest",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-i18n": "latest",
+    "vue-router": "latest",
+    "vuex": "latest"
   },
   "devDependencies": {
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
